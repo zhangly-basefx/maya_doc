@@ -1,5 +1,5 @@
 # 返回maya版本号
-cmds.about(v=True)
+cmds.about(version=True)
 
 # 返回maya api版本
 cmds.about(apiVersion=True)
@@ -52,8 +52,6 @@ cmds.about(preferences=True)
 # 返回maya界面语言
 cmds.about(uiLanguage=True)
 
-
-
-
-
+# 返回系统语言
+cmds.about(uiLocaleLanguage=True)
 
