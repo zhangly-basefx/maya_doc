@@ -1,3 +1,7 @@
+'''
+显示有关系统的版本信息
+'''
+
 # 返回maya版本号
 cmds.about(version=True)
 
