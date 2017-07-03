@@ -1,6 +1,6 @@
-‘’‘
+'''
 打开一个maya端口和外界的客户端进行链接
-’‘’
+'''
 
 # 打开默认名称为"mayaCommand"的端口
 cmds.commandPort()
