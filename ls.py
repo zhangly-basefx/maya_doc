@@ -29,4 +29,14 @@ cmds.ls(shapes=True)
 # 列出所有几何形状节点，并显示它的类型
 cmds.ls(type='geometryShape', showType=True)
 
+# 列出所有变换对象
+cmds.ls(transforms=True)
 
+# 列出所有纹理贴图
+cmds.ls(textures=True)
+
+#列出所有references，排除未知的节点
+cmds.ls(references=True)
+
+#列出所有被锁定的节点(无法被删除更改)
+cmds.ls(lockedNodes=True)
